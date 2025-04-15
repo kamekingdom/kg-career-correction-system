@@ -44,6 +44,11 @@ Originally designed for use at Kwansei Gakuin University, this application suppo
 python main.py
 ```
 
+or just double-click:
+```bash
+run_program.bat
+```
+
 3. From the GUI:
    - Select the `.csv` to process
    - Add NG words
@@ -78,18 +83,19 @@ Each row includes:
 
 ---
 
-## 📈 Performance Tips
+## 📁 Project Structure
 
-- Handles hundreds of CSV entries efficiently with progress and ETA display
-- Automatically clears temporary files to avoid clutter
+```
+kg-career-correction-system/
+├── main.py                # Main GUI & logic controller
+├── downloader.py          # (Optional) Data loader
+├── run_program.bat        # Batch launcher for Windows
+├── teacher_list.xlsx      # Excel mapping for teacher assignments
+├── data/                  # Temporary CSV storage & results
+└── venv/                  # Virtual environment (not committed to Git)
+```
 
----
-
-## 🚨 Notes
-
-- This project assumes Japanese-language answers in CP932 encoding
-- NG words are manually controlled per session
-- Results are designed to be importable into school systems or Excel
+> ✅ You can launch the app via `python main.py` or by double-clicking `run_program.bat`
 
 ---
 
