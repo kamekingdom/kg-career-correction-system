@@ -41,7 +41,7 @@ Originally designed for use at Kwansei Gakuin University, this application suppo
 2. Run:
 
 ```bash
-python kgcareer013.py
+python main.py
 ```
 
 3. From the GUI:
