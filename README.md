@@ -1,4 +1,4 @@
-# 🔢 KG Career Correction System
+# 🔢 KG Career Correction System (2021)
 
 A Python-based GUI application to semi-automatically analyze and score career planning submissions using natural language similarity, NG-word detection, and duplication analysis.
 
